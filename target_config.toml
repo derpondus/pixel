@@ -178,9 +178,44 @@ startx = -344
 starty = -467
 priority = 127
 
+#[[structure]]
+#name = "ukrainetemp"
+#file = "ukrainetemp.png"
+#startx = -500
+#starty = -500
+#priority = 127
+
 [[structure]]
-name = "ukrainetemp"
-file = "ukrainetemp.png"
-startx = -500
-starty = -500
+name = "maggi"
+file = "maggi.png"
+startx = 469
+starty = -449
+priority = 127
+
+[[structure]]
+name = "pfand"
+file = "pfand.png"
+startx = -486
+starty = -434
+priority = 127
+
+[[structure]]
+name = "Brudimussmal"
+file = "Brudimussmal.png"
+startx = 483
+starty = -449
+priority = 127
+
+[[structure]]
+name = "bikenl"
+file = "bikenl.png"
+startx = 29
+starty = -466
+priority = 127
+
+[[structure]]
+name = "kasette"
+file = "kasette.png"
+startx = 550
+starty = -463
 priority = 127
