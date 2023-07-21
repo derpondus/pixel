@@ -12,7 +12,7 @@ allowed_colors = [
     "000000",
     "FFFFFF"
 ]
-width = 1000
+width = 1500
 height = 1000
 add-x = 500
 add-y = 500
@@ -45,8 +45,8 @@ starty = -450
 priority = 127
 
 [[structure]]
-name = "paragraf_eins"
-file = "paragraf_eins.png"
+name = "paragraf_einsneu"
+file = "paragraf_einsneu.png"
 startx = 170
 starty = -450
 priority = 127
@@ -129,8 +129,8 @@ starty = -432
 priority = 127
 
 [[structure]]
-name = "spezhs"
-file = "spezhs.png"
+name = "spezadlerkombi"
+file = "spezadlerkombi.png"
 startx = -137
 starty = -449
 priority = 127
@@ -143,10 +143,10 @@ starty = -458
 priority = 127
 
 [[structure]]
-name = "DINFCKAFD"
-file = "DINFCKAFD.png"
-startx = -301
-starty = -450
+name = "DINFCKAFDneuneu"
+file = "DINFCKAFDneuneu.png"
+startx = -312
+starty = -458
 priority = 127
 
 [[structure]]
@@ -156,23 +156,31 @@ startx = 9
 starty = -449
 priority = 127
 
-# [[structure]]
-# name = "train"
-# file = "train.png"
-# startx = 412
-# starty = -386
-# priority = 127
+[[structure]]
+name = "alltrains"
+file = "alltrains.png"
+startx = -500
+starty = -406
+priority = 127
+
+#[[structure]]
+#name = "canada"
+#file = "canada.png"
+#startx = 90
+#starty = 165
+#priority = 127
+#overlay_only = false
 
 [[structure]]
-name = "canada"
-file = "canada.png"
-startx = 90
-starty = 165
+name = "Big_Ying_Yang"
+file = "Big_Ying_Yang.png"
+startx = -344
+starty = -467
 priority = 127
 
 [[structure]]
-name = "Bundesadler"
-file = "Bundesadler.png"
-startx = -64
-starty = -440
+name = "ukrainetemp"
+file = "ukrainetemp.png"
+startx = -500
+starty = -500
 priority = 127
