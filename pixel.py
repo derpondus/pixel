@@ -29,13 +29,13 @@ class Config:
     min_prio: int
     max_prio: int
     png_is_base64: bool
-    png_path_or_prefix: str | None
+    png_path_or_prefix: Optional[str]
     prio_is_base64: bool
-    prio_path_or_prefix: str | None
+    prio_path_or_prefix: Optional[str]
     both_is_base64: bool
-    both_path_or_prefix: str | None
+    both_path_or_prefix: Optional[str]
     json_is_base64: bool
-    json_path_or_prefix: str | None
+    json_path_or_prefix: Optional[str]
     is_overlay: bool
     ignore_prio: bool
     allow_overwrites: bool
@@ -126,7 +126,7 @@ def string_to_base64(data: str):
     return base64.b64encode(data.encode('ascii')).decode('ascii')
 
 
-def save(is_base64: bool, path_or_prefix: str | None, data):
+def save(is_base64: bool, path_or_prefix: Optional[str], data):
     """
     save data.
     :param is_base64: if the data should be printed as base64 or saved to file
@@ -336,6 +336,7 @@ if __name__ == "__main__":
     width, height = int(pixel_config["width"]), int(pixel_config["height"])
     add_x, add_y = int(pixel_config["add-x"]), int(pixel_config["add-y"])
     default_prio = int(pixel_config["default_prio"] or 0)
+    print(pixel_config)
 
     for cfg in args.config:
         work_config(cfg, args.picture_folder)
