@@ -20,9 +20,9 @@ allowed_colors = [
     "D4D7D9",
     "FFFFFF"
 ]
-width = 1500
+width = 2000
 height = 1000
-add-x = 500
+add-x = 1000
 add-y = 500
 
 default_prio = 120 # priority: higher number = higher chance of being placed
@@ -41,6 +41,6 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 [[structure]]
 name = "flag-top"
 file = "flag-top.png"
-startx = -500
+startx = -1000
 starty = -450
 priority = 100
