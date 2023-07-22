@@ -46,9 +46,16 @@ starty = -1000
 priority = 100
 
 [[structure]]
-name = "flag-top-mid"
-file = "flag-top.png"
+name = "flag-top-mid-left"
+file = "flag-top-mid-left.png"
 startx = -1000
+starty = -610
+priority = 100
+
+[[structure]]
+name = "flag-top-mid-right"
+file = "flag-top-mid-right.png"
+startx = -623
 starty = -610
 priority = 100
 
