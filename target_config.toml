@@ -1,58 +1,88 @@
-ignored_colors = [
-    #000000, # filter black, DO NOT USE "#"!!!
-]
-allowed_colors = [
-    #000000, # allow black, DO NOT USE "#"!!!
-    "FF4500",
-    "FFA800",
-    "FFD635",
-    "00A368",
-    "7EED56",
-    "2450A4",
-    "3690EA",
-    "51E9F4",
-    "811E9F",
-    "B44AC0",
-    "FF99AA",
-    "9C6926",
-    "000000",
-    "898D90",
-    "D4D7D9",
-    "FFFFFF"
-]
+ignored_colors = []
+allowed_colors = ["FF4500","FFA800","FFD635","00A368","7EED56","2450A4","3690EA","51E9F4","811E9F","B44AC0","FF99AA","9C6926","000000","898D90","D4D7D9","FFFFFF"]
 width = 2000
-height = 1000
+height = 1500
 add-x = 1000
-add-y = 500
+add-y = 1000
+default_prio = 120
 
-default_prio = 120 # priority: higher number = higher chance of being placed
-
-
-# example:
-# [[structure]]
-# name = "flagge-ost"
-# file = "flagge-ost.png"
-# priority_file = "flagge-ost_prio.png"
-# startx = 1332
-# starty = 1122
-# priority = 127
-# overlay_only = false
-# ignore_prio_in_picture = false
-
-# FROM LEFT TO RIGHT
+[[structure]]
+name = "skandinavien"
+file = "skandinavien.png"
+startx = -1000
+starty = -500
+priority = 127
+overlay_only = true
+disabled = true
 
 [[structure]]
 name = "subredditstra"
 file = "subredditstra.png"
-startx = -499
-starty = -420
+startx = -1000
+starty = -450
 priority = 127
 
 [[structure]]
-name = "pfand"
-file = "pfand.png"
-startx = -486
-starty = -434
+name = "a380"
+file = "a380.png"
+startx = -969
+starty = -416
+priority = 128
+
+[[structure]]
+name = "overhead"
+file = "overhead.png"
+startx = -902
+starty = -440
+priority = 127
+
+[[structure]]
+name = "de_nl_love"
+file = "de_nl_love.png"
+startx = -885
+starty = -500
+priority = 127
+
+[[structure]]
+name = "was_ist_was"
+file = "was_ist_was.png"
+startx = -788
+starty = -429
+priority = 127
+
+[[structure]]
+name = "trabi_mauer"
+file = "trabi_mauer.png"
+startx = -731
+starty = -442
+priority = 127
+
+[[structure]]
+name = "hanf_karl"
+file = "hanf_karl.png"
+startx = -671
+starty = -445
+priority = 127
+
+[[structure]]
+name = "pettersson_findus"
+file = "pettersson_findus.png"
+startx = -612
+starty = -450
+priority = 127
+
+[[structure]]
+name = "tagesschau"
+file = "tagesschau.png"
+startx = -515
+starty = -448
+priority = 127
+
+[[structure]]
+name = "pfandrec"
+file = "pfandrec.png"
+startx = -454
+starty = -441
 priority = 127
 
 [[structure]]
@@ -133,8 +163,8 @@ starty = -448
 priority = 127
 
 [[structure]]
-name = "bike_nl"
-file = "bike_nl.png"
+name = "bikenl"
+file = "bikenl.png"
 startx = 29
 starty = -466
 priority = 127
@@ -157,6 +187,13 @@ priority = 127
 name = "yoyo_croc"
 file = "yoyo_croc.png"
 startx = 125
+starty = -450
+priority = 127
+
+[[structure]]
+name = "paragraf_eins"
+file = "paragraf_eins.png"
+startx = 170
 starty = -450
 priority = 127
 
@@ -231,6 +268,20 @@ starty = -418
 priority = 127
 
 [[structure]]
+name = "baustelle"
+file = "baustelle.png"
+startx = 818
+starty = -447
+priority = 127
+
+[[structure]]
+name = "late_db"
+file = "late_db.png"
+startx = 855
+starty = -451
+priority = 127
+
+[[structure]]
 name = "pumuckl"
 file = "pumuckl.png"
 startx = 725
@@ -240,53 +291,99 @@ priority = 127
 [[structure]]
 name = "rettungsfahrzeuge"
 file = "rettungsfahrzeuge.png"
-startx = 853
-starty = -425
+startx = 854
+starty = -426
 priority = 127
 
-# AUSERHALB DER FLAGGE:
-
-#[[structure]]
-#name = "panzer"
-#file = "panzer.png"
-#startx = -30
-#starty = -174
-#priority = 127
+[[structure]]
+name = "panzer"
+file = "panzer.png"
+startx = -30
+starty = -174
+priority = 127
+disabled = true
 
 [[structure]]
 name = "alltrains"
 file = "alltrains.png"
-startx = -500
-starty = -406
+startx = -1000
+starty = -392
 priority = 127
 
 [[structure]]
-name = "paragraf_eins"
-file = "paragraf_eins.png"
-startx = 170
-starty = -450
+name = "canada_left"
+file = "canada_left.png"
+startx = 90
+starty = 165
 priority = 127
-
-# [[structure]]
-# name = "canada"
-# file = "canada.png"
-# startx = 90
-# starty = 165
-# priority = 127
-# overlay_only = false
+overlay_only = false
+disabled = true
 
 [[structure]]
 name = "ukrainetemp"
 file = "ukrainetemp.png"
-startx = -500
+startx = -1000
 starty = -500
 priority = 127
-overlay_only = true
+overlay_only = false
+disabled = true
 
 [[structure]]
 name = "netherlands"
 file = "netherlands.png"
-startx = -500
+startx = -1000
 starty = -500
 priority = 126
+overlay_only = false
+
+[[structure]]
+name = "nett_hier"
+file = "nett_hier.png"
+startx = 319
+starty = -496
+priority = 127
+overlay_only = false
+disabled = true
+
+[[structure]]
+name = "was"
+file = "was.png"
+startx = 682
+starty = -458
+priority = 127
+overlay_only = false
+disabled = true
+
+[[structure]]
+name = "transplace_teil1"
+file = "transplace_teil1.png"
+startx = 48
+starty = -3
+priority = 127
+overlay_only = true
+
+[[structure]]
+name = "transplace_teil2"
+file = "transplace_teil2.png"
+startx = -632
+starty = -184
+priority = 127
+overlay_only = true
+
+[[structure]]
+name = "canada_right_without_small_flags"
+file = "canada_right_without_small_flags.png"
+disabled = true
+startx = 681
+starty = -114
+priority = 126
+overlay_only = false
+
+[[structure]]
+name = "canada_right"
+file = "canada_right.png"
+disabled = true
+startx = 680
+starty = -118
+priority = 127
 overlay_only = false
